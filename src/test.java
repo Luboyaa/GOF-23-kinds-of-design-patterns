@@ -1,25 +1,14 @@
-class stupid {
-    private String type;
-
-    public stupid(String type){
-        this.type = type;
-    }
-
-    public String getType(){
-        return type;
-    }
-
-    public void setType(String type){
-        this.type = type;
-    }
-}
+import java.util.ArrayList;
+import java.util.List;
 
 public class test {
     public static void main(String[] args) {
-        stupid s = new stupid("fuck");
-        System.out.println(s.getType());
+        List<Integer> stupid = new ArrayList<>();
+        stupid.add(123);
+        stupid.add(123);
+        stupid.add(123);
+        stupid.add(123);
+        System.out.println(stupid);
 
-        s.setType("you");
-        System.out.println(s.getType());
     }
 }
